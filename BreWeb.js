@@ -16,5 +16,5 @@ res.sendFile(__dirname + '/static/indexYoga.html');
 });
 
 
-app.listen(2999);
+app.listen(process.env.PORT ||2999);
 console.log("Running...")
