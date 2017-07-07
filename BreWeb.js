@@ -7,7 +7,7 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'static')));
 
 app.get('/', function(req, res){
-res.sendFile(__dirname + '/static/indexYoga');
+res.sendFile(__dirname + '/static/indexYoga.html');
 });
 
 
